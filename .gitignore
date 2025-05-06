@@ -1,0 +1,51 @@
+# Node modules (frontend y backend)
+**/node_modules/
+**/dist/
+**/build/
+
+# Entornos
+.env
+.env.*.local
+.env.local
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Salidas de compilación TypeScript
+**/out/
+**/tsbuildinfo
+**/*.tsbuildinfo
+
+# Archivos de lock alternativos
+yarn.lock
+pnpm-lock.yaml
+
+# Test coverage
+coverage/
+
+# Archivos generados por Tailwind o PostCSS
+postcss.config.js
+tailwind.config.js
+
+# Archivos que genera Vite
+.vite/
+
+# Archivos de backup o temporales
+*.bak
+*.tmp
+*.swp
