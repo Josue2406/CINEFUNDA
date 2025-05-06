@@ -1,0 +1,17 @@
+{
+  "name": "cinefunda",
+  "private": true,
+  "scripts": {
+    "dev:client": "npm run dev --prefix movie-book-recommendations",
+    "dev:server": "npm run dev --prefix recomenda-backend",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "build": "npm run build --prefix movie-book-recommendations && npm run build --prefix recomenda-backend",
+    "start": "npm run start --prefix recomenda-backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
+
+
+
